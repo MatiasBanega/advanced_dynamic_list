@@ -11,7 +11,7 @@ class advanced_dynamicTableSetting(models.TransientModel):
     _inherit = 'res.config.settings'
 
     virtual_scroll = fields.Boolean(string="Virtual Scroll", default=True)
-    allow_user_config = fields.Boolean(string="Allow User Config", default=False)
+    allow_user_config = fields.Boolean(string="Allow User Config", default=True)
     enable_advanced_dynamic_list_by_default = fields.Boolean(string="Enable advanced_dynamic List", default=True)
     based_on_admin_setting = fields.Boolean(string="Based on Admin Setting", default=True)
 

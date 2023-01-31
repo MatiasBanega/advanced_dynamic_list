@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Advanced Dynamic List",
-    'version': '15.0.0.0',
+    'version': '14.0.0.0',
     'author': "medconsultantweb@gmail.com",
     'summary': """
         Advanced Dynamic List" is a user-friendly Odoo module that provides advanced customization options for list views with a simple drag-and-drop menu
@@ -37,46 +37,11 @@
     'depends': ['base', 'web'],
 
     'data': [
+        'views/assets.xml',
         'security/ir.model.access.csv',
         'views/advanced_dynamic_web.xml',
     ],
-
-    'assets': {
-        'web.assets_backend': [
-            'advanced_dynamic_list/static/css/advanced_dynamic_list.scss',
-            'advanced_dynamic_list/static/css/iconfont.css',
-            'advanced_dynamic_list/static/libs/daterangepicker/daterangepicker.css',
-            'advanced_dynamic_list/static/libs/resize_helper.js',
-            'advanced_dynamic_list/static/libs/sortable.js',
-            'advanced_dynamic_list/static/libs/daterangepicker/daterangepicker.js',
-            'advanced_dynamic_list/static/js/advanced_dynamic_list_controller.js',
-            'advanced_dynamic_list/static/js/advanced_dynamic_list_render.js',
-            'advanced_dynamic_list/static/js/advanced_dynamic_list_view.js',
-            'advanced_dynamic_list/static/js/advanced_dynamic_list_model.js',
-            'advanced_dynamic_list/static/js/advanced_dynamic_resize_manager.js',
-            'advanced_dynamic_list/static/js/advanced_dynamic_util.js',
-            'advanced_dynamic_list/static/js/advanced_dynamic_fake_view.js',
-            'advanced_dynamic_list/static/js/config/advanced_dynamic_list_config.js',
-            'advanced_dynamic_list/static/js/search/search_item_registry.js',
-            'advanced_dynamic_list/static/js/search/advanced_dynamic_search_fields.js',
-            'advanced_dynamic_list/static/js/search/advanced_dynamic_search_facet.js',
-            'advanced_dynamic_list/static/js/search/advanced_dynamic_search_auto_complete.js',
-            'advanced_dynamic_list/static/js/search/advanced_dynamic_auto_complete_sources.js',
-            'advanced_dynamic_list/static/js/search/advanced_dynamic_search_auto_complete_source_registry.js',
-            'advanced_dynamic_list/static/js/search/advanced_dynamic_search_row.js',
-            'advanced_dynamic_list/static/js/form/advanced_dynamic_form_view.js',
-            'advanced_dynamic_list/static/js/form/advanced_dynamic_form_render.js',
-            'advanced_dynamic_list/static/js/form/advanced_dynamic_form_controller.js',
-            'advanced_dynamic_list/static/js/form/advanced_dynamic_form_model.js',
-        ],
-
-        'web.assets_qweb': [
-            'advanced_dynamic_list/static/xml/advanced_dynamic_list_view.xml',
-            'advanced_dynamic_list/static/xml/advanced_dynamic_list_config.xml',
-            'advanced_dynamic_list/static/xml/advanced_dynamic_search.xml',
-            'advanced_dynamic_list/static/xml/advanced_dynamic_misc.xml',
-        ]
-    },
+    "qweb": ["static/xml/*.xml"],
     'price': 175.00,
     'currency': 'EUR',
     'license': 'OPL-1',

@@ -15,7 +15,6 @@
                 <script type="application/javascript" src='/advanced_dynamic_list/static/libs/daterangepicker/daterangepicker.js'/>
                 
                 # list view
-                <script type="application/javascript" src='/advanced_dynamic_list/static/js/advanced_dynamic_list_controller.js'/>
                 <script type="application/javascript" src='/advanced_dynamic_list/static/js/advanced_dynamic_list_render.js'/>
                 <script type="application/javascript" src='/advanced_dynamic_list/static/js/advanced_dynamic_list_view.js'/>
                 <script type="application/javascript" src='/advanced_dynamic_list/static/js/advanced_dynamic_list_model.js'/>
