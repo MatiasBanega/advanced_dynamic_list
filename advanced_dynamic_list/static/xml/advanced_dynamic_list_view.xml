@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <!-- advanced_dynamic list box -->
+    <t t-name="advanced_dynamic_list.list_view">
+        <div class="advanced_dynamic_list_view">
+            <div class="advanced_dynamic_list_container">
+                <div class="advanced_dynamic_list_header advanced_dynamic_table_header">
+                        <table cellspacing="0" cellpadding="0" border="0" class="advanced_dynamic_list advanced_dynamic_header_table advanced_dynamic_bordered"/>
+                </div>
+                <div class="advanced_dynamic_table_body">
+                    <div class="advanced_dynamic_page_simulater" />
+                    <table cellspacing="0" cellpadding="0" border="0" class="advanced_dynamic_list advanced_dynamic_body_table"/>
+                </div>
+                <div class="advanced_dynamic_table_footer">
+                    <div class="footer_scroller">
+                        <table cellspacing="0" cellpadding="0" border="0" class="advanced_dynamic_list advanced_dynamic_footer_table advanced_dynamic_bordered"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+
+</templates>

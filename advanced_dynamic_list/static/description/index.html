@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Dynamic List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.prev-btn').on('click', function() {
+        $('.active').prev().addClass('active').siblings().removeClass('active');
+      });
+
+      $('.next-btn').on('click', function() {
+        $('.active').next().addClass('active').siblings().removeClass('active');
+      });
+    });
+
+
+    </script>
+    <style>
+      /* Custom styles */
+      .oe_slogan {
+        color: #1c4375;
+      }
+
+      /* Add custom class to sections */
+      section.oe_section {
+        margin-top: 10px;
+        padding: 20px;
+      }
+
+      /* Add custom class to sections */
+      section.oe_dark {
+        background-color: #f5f5f5;
+        color: #1c4375;
+      }
+
+
+    </style>
+</head>
+<body>
+
+<section>
+    <div class="container loempia_srt_container">
+        <!-- Nav START -->
+        <div class="position-relative my-5">
+            <div class="row shadow-sm" style="border-radius:14px">
+                <div class="col-lg-10 col-md-10 col-sm-12" style="text-align:right">
+                    <span>
+                        <img class="img img-fluid lazyload" src="odoo-plateforms.png" style="width:30%" alt="Odoo Community | Odoo Enterprise | Odoo.sh">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Nav END -->
+    <div class="position-relative">
+        <div class="row align-items-center bg-transparent" style="border-radius:14px">
+            <div class="col-12 px-0">
+                <div class="ks-bg-blue position-relative pt-lg-5 pt-4" style="background-color:#C5DFFC; padding:20vw 5vw; border-radius:10px">
+                    <div class="position-relative text-center px-3" style="color:#FFFFFF; font-family:'Inter', sans-serif">
+                        <h2 class="oe_slogan mb32" style="color:#1A27C9; font-family:Montserrat; font-weight:700; text-align:center; text-transform:uppercase; margin-bottom:18px; margin-top:18px">
+                            Advanced Dynamic List
+                        </h2>
+                        <span class="pt-2" style="font-size:calc(0.50rem + 0.80vw); line-height:160%; text-align:center; color:#151765">
+                                Advanced Dynamic List" is an Odoo module that allows users to personalize their <b>list view</b> through a drag-and-drop menu of all available fields in the database, <b>sort columns</b>, <b>rename columns</b>, and perform <b>advanced searches</b>, including text fields, option fields, and date fields, with the ability to also customize <b>sorting of many-to-one lines</b> such as product lists in quotes or journal entries.
+
+                        </span>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-11 d-flex justify-content-center position-relative" style="margin-top:-18%">
+                        <div style="background-color:#EDF1FD; border-radius:10px" class="py-xl-5 px-xl-5 p-2">
+
+                            <div class="mt-5" style="background-color:#f5e4ff">
+                                        <div class="col-md-12 py-4">
+                                            <div class="text-center col-md-12">
+                                                <h1 style="font-family:'Inter', sans-serif; font-weight:600; font-size:calc(1.1rem + 1vw); line-height:120%; text-align:center; text-transform:capitalize">
+                                                    <span style="color:#151765; font-size:calc(1.1rem + 1vw)">Customizable List View through Drag-and-Drop Menu</span>
+                                                </h1>
+                                                <p style="font-family:Inter; font-weight:500; font-size:16px; line-height:150%; letter-spacing:0.02em; color:#535456">
+The "Advanced Dynamic List" Odoo module allows users to personalize their list view by providing a drag-and-drop menu of all available fields in the database. Users can select and arrange fields to suit their specific needs and preferences, resulting in a customized list view.
+                                                </p>
+                                                                                                <p style="font-family:Inter; font-weight:500; font-size:16px; line-height:150%; letter-spacing:0.02em; color:#535456">
+Additionally, the module also enables customization of many-to-one line sorting, such as in product lists in quotes or journal entries, giving users greater control over their workflow. By allowing users to personalize their list view in both normal lists and many-to-one lists, the "Advanced Dynamic List" Odoo module improves efficiency and streamlines workflow for a more user-friendly experience.                                                </p>
+                                            </div>
+                                            <div class="row no-gutters" bis_skin_checked="1">
+                                                <div class="col-md-9 " bis_skin_checked="1">
+                                                    <div class="tab-content py-4 h-100 bg-white mr-md-4 mr-0" style="border-radius:5px" bis_skin_checked="1">
+                                                        <div class="tab-pane h-100 active show" id="field-invisible" role="tabpanel" bis_skin_checked="1">
+                                                            <div class="h-100 d-flex align-items-center w-100 justify-content-center ">
+                                                                <div class="s_image_gallery">
+                                                                    <div class="row s_nb_column_fixed">
+                                                                        <div class="col-lg-12">
+                                                                            <img class="img img-fluid lazyload cursor-pointer"
+                                                                                 src="add-in-list.gif" data-index="0" data-name="img" loading="lazy" data-original-id="254" data-original-src="extra/gif/8-hide-field.gif" data-mimetype="image/gif" style="">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane h-100 fade" id="field-r-only" role="tabpanel" bis_skin_checked="1">
+                                                            <div class="h-100 d-flex align-items-center w-100 justify-content-center ">
+                                                                <div class="s_image_gallery">
+                                                                    <div class="row s_nb_column_fixed">
+                                                                        <div class="col-lg-12">
+                                                                            <img class="img img-fluid lazyload cursor-pointer"
+                                                                                 src="hideandreordering.gif" data-index="0" data-name="img" loading="lazy" data-original-id="254" data-original-src="extra/gif/8-hide-field.gif" data-mimetype="image/gif" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade h-100" id="field-required" role="tabpanel" bis_skin_checked="1">
+                                                            <div class="h-100 d-flex align-items-center w-100 justify-content-center ">
+                                                                <div class="s_image_gallery">
+                                                                    <div class="row s_nb_column_fixed">
+                                                                        <div class="col-lg-12">
+                                                                            <img class="img img-fluid lazyload cursor-pointer"
+                                                                                 src="rename.gif" data-index="0" data-name="img" loading="lazy" data-original-id="254" data-original-src="extra/gif/8-hide-field.gif" data-mimetype="image/gif" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane h-100 fade" id="remoce-ext-link" role="tabpanel" bis_skin_checked="1">
+                                                            <div class="h-100 d-flex align-items-center w-100 justify-content-center ">
+                                                                <div class="s_image_gallery">
+                                                                    <div class="row s_nb_column_fixed">
+                                                                        <div class="col-lg-12">
+                                                                            <img class="img img-fluid lazyload cursor-pointer"
+                                                                                 src="one-ti-many.gif" data-index="0" data-name="img" loading="lazy" data-original-id="254" data-original-src="extra/gif/8-hide-field.gif" data-mimetype="image/gif" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane h-100 fade" id="resecrche-ext-link" role="tabpanel" bis_skin_checked="1">
+                                                            <div class="h-100 d-flex align-items-center w-100 justify-content-center ">
+                                                                <div class="s_image_gallery">
+                                                                    <div class="row s_nb_column_fixed">
+                                                                        <div class="col-lg-12">
+                                                                            <img class="img img-fluid lazyload cursor-pointer"
+                                                                                 src="recherche.gif" data-index="0" data-name="img" loading="lazy" data-original-id="254" data-original-src="extra/gif/8-hide-field.gif" data-mimetype="image/gif" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3" bis_skin_checked="1">
+                                                    <div aria-orientation="vertical" class="nav flex-row bg-transparent nav-pills mb-4" id="fields-pills-tab" role="tablist" style="border-radius:10px" bis_skin_checked="1">
+                                                        <a aria-controls="line_chart" class="mb-2 nav-link w-100 p-0 border-bottom active" data-toggle="tab" href="#field-invisible" role="tab" style="border-radius:0; padding-left:4px !important; height:57px">
+                                                            <div class="media bg-white align-items-center px-2 py-3" bis_skin_checked="1">
+                                                                <div class="media-body pl-2 pr-2 position-relative" bis_skin_checked="1">
+                                                                    <h5 class="d-flex  align-items-center m-0 text-left" style="font-family:'Inter', sans-serif; font-weight:normal; font-size:16px; line-height:150%; text-align:center; text-transform:capitalize; color:#4F4F4F">
+                                                                        Add Any Field to view
+                                                                    </h5>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <a aria-controls="ListView" class="mb-2 nav-link w-100 p-0 border-bottom" data-toggle="tab" href="#field-r-only" role="tab" style="border-radius:0; padding-left:4px !important; height:57px">
+                                                            <div class="media bg-white align-items-center px-2 py-3" bis_skin_checked="1">
+                                                                <div class="media-body pl-2 pr-2 position-relative" bis_skin_checked="1">
+                                                                    <h5 class="d-flex  align-items-center m-0 text-left" style="font-family:'Inter', sans-serif; font-weight:normal; font-size:16px; line-height:150%; text-align:center; text-transform:capitalize; color:#4F4F4F">
+                                                                        Hide fields and sorting columns
+                                                                    </h5>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <a aria-controls="Bar_Chart" class="mb-2 nav-link w-100 p-0 border-bottom" data-toggle="tab" href="#field-required" role="tab" style="border-radius:0; padding-left:4px !important; height:57px">
+                                                            <div class="media bg-white align-items-center px-2 py-3" bis_skin_checked="1">
+                                                                <div class="media-body pl-2 pr-2 position-relative" bis_skin_checked="1">
+                                                                    <h5 class="d-flex  align-items-center m-0 text-left" style="font-family:'Inter', sans-serif; font-weight:normal; font-size:16px; line-height:150%; text-align:center; text-transform:capitalize; color:#4F4F4F">
+                                                                        Rename fields
+                                                                    </h5>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <a aria-controls="horizontal_bar" class="mb-2 nav-link w-100 p-0 border-bottom" data-toggle="tab" href="#remoce-ext-link" role="tab" style="border-radius:0; padding-left:4px !important; height:57px">
+                                                            <div class="media bg-white align-items-center px-2 py-3" bis_skin_checked="1">
+                                                                <div class="media-body pl-2 pr-2 position-relative" bis_skin_checked="1">
+                                                                    <h5 class="d-flex  align-items-center m-0 text-left" style="font-family:'Inter', sans-serif; font-weight:normal; font-size:16px; line-height:150%; text-align:center; text-transform:capitalize; color:#4F4F4F">
+                                                                        Customize Many2One List
+                                                                    </h5>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <a aria-controls="horizontal_bar" class="mb-2 nav-link w-100 p-0 border-bottom" data-toggle="tab" href="#resecrche-ext-link" role="tab" style="border-radius:0; padding-left:4px !important; height:57px">
+                                                            <div class="media bg-white align-items-center px-2 py-3" bis_skin_checked="1">
+                                                                <div class="media-body pl-2 pr-2 position-relative" bis_skin_checked="1">
+                                                                    <h5 class="d-flex  align-items-center m-0 text-left" style="font-family:'Inter', sans-serif; font-weight:normal; font-size:16px; line-height:150%; text-align:center; text-transform:capitalize; color:#4F4F4F">
+                                                                        Dynamic research
+                                                                    </h5>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="oe_section oe_dark text-center">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">Contact / Support</h2>
+            <h3 class="oe_slogan">Need help or want extra features?</h3>
+        </div>
+        <div class="oe_span6">
+            <div class="oe_demo oe_picture oe_screenshot">
+                <a><img src="banner.png"></a>
+            </div>
+        </div>
+        <div class="oe_span6">
+            <p class="oe_mt32">
+                Need help with the configuration or want this module to have more
+                functionalities? <br> <b>Contact us on</b>
+            </p>
+            <ul class="list-group">
+                <li class="list-group-item ">E Mail : <a href="mailto:"
+                                                         contact="">medconsultantweb@gmail.com@gmail.com</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        Crossorigin="anonymous"></script>
+</body>
+</html>

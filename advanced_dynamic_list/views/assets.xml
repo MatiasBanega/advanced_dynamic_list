@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <template id="advanced_dynamic_list_res" name="advanced_dynamic_list_res" inherit_id="web.assets_backend">
+
+            <xpath expr="." position="inside">
+ 
+                <link rel="stylesheet" type="text/css" href='/advanced_dynamic_list/static/css/advanced_dynamic_list.scss'/>
+                <link rel="stylesheet" type="text/css" href='/advanced_dynamic_list/static/css/iconfont.css'/>
+                <link rel="stylesheet" type="text/css" href='/advanced_dynamic_list/static/libs/daterangepicker/daterangepicker.css'/>
+
+                <script type="application/javascript" src='/advanced_dynamic_list/static/libs/resize_helper.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/libs/sortable.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/libs/daterangepicker/daterangepicker.js'/>
+                
+                # list view
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/advanced_dynamic_list_controller.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/advanced_dynamic_list_render.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/advanced_dynamic_list_view.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/advanced_dynamic_list_model.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/advanced_dynamic_resize_manager.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/advanced_dynamic_util.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/advanced_dynamic_fake_view.js'/>
+
+                # config
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/config/advanced_dynamic_list_config.js'/>
+
+                # search
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/search/search_item_registry.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/search/advanced_dynamic_search_fields.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/search/advanced_dynamic_search_facet.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/search/advanced_dynamic_search_auto_complete.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/search/advanced_dynamic_auto_complete_sources.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/search/advanced_dynamic_search_auto_complete_source_registry.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/search/advanced_dynamic_search_row.js'/>
+
+                # form
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/form/advanced_dynamic_form_view.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/form/advanced_dynamic_form_render.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/form/advanced_dynamic_form_controller.js'/>
+                <script type="application/javascript" src='/advanced_dynamic_list/static/js/form/advanced_dynamic_form_model.js'/>
+
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

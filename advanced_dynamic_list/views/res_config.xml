@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="advanced_dynamic_list_res_config_settings_form" model="ir.ui.view">
+            <field name="name">List Settings</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="-1"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+                    <div class="app_settings_block" data-string="advanced_dynamic_list_setting" string="List Settings" data-key="advanced_dynamic_list_setting" groups="base.group_system">
+                        <h2>advanced_dynamic List Config</h2>
+                        <div class="row mt16 o_settings_container">
+                            <div class="col-xs-12 col-md-6 o_setting_box">
+                                <div class="o_setting_left_pane"/>
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <label for="allow_user_config" class="o_form_label"/>
+                                        <div class="text-muted">
+                                            Allow User Config
+                                        </div>
+                                        <div class="mt16">
+                                            <field name="allow_user_config"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt16 o_settings_container">
+                            <div class="col-xs-12 col-md-6 o_setting_box">
+                                <div class="o_setting_left_pane"/>
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <label for="enable_advanced_dynamic_list_by_default" class="o_form_label"/>
+                                        <div class="text-muted">
+                                            Enable advanced_dynamic List By Default
+                                        </div>
+                                        <div class="mt16">
+                                            <field name="enable_advanced_dynamic_list_by_default"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt16 o_settings_container">
+                            <div class="col-xs-12 col-md-6 o_setting_box">
+                                <div class="o_setting_left_pane"/>
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <label for="based_on_admin_setting" class="o_form_label"/>
+                                        <div class="text-muted">
+                                            Based On Admin Setting
+                                        </div>
+                                        <div class="mt16">
+                                            <field name="based_on_admin_setting"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

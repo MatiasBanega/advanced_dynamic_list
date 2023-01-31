@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="advanced_dynamic_list.bootstrap" inherit_id="web.webclient_bootstrap">
+
+        <xpath expr="//t[@t-call-assets='web.assets_common']" position="before">
+            <script type="text/javascript">
+                odoo.advanced_dynamic_list_mode = '<t t-esc="session_info['advanced_dynamic_list_mode']"/>';
+            </script>
+        </xpath>
+
+    </template>
+
+</odoo>
