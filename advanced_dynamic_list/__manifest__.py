@@ -77,10 +77,10 @@
             'advanced_dynamic_list/static/xml/advanced_dynamic_misc.xml',
         ]
     },
-    'price': 175.00,
+    'price': 125.00,
     'currency': 'EUR',
     'license': 'OPL-1',
-    'images': ['static/description/banner.png'],
+    'images': ['static/description/banner.gif'],
     'auto_install': False,
     'application': True,
     'installable': True,
