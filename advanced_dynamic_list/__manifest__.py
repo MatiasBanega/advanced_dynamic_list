@@ -77,7 +77,7 @@
             'advanced_dynamic_list/static/xml/advanced_dynamic_misc.xml',
         ]
     },
-    'price': 125.00,
+    'price': 49.00,
     'currency': 'EUR',
     'license': 'OPL-1',
     'images': ['static/description/banner.gif'],
