@@ -42,7 +42,7 @@
         'views/advanced_dynamic_web.xml',
     ],
     "qweb": ["static/xml/*.xml"],
-    'price': 120.00,
+    'price': 49.00,
     'currency': 'EUR',
     'license': 'OPL-1',
     'images': ['static/description/banner.gif'],
